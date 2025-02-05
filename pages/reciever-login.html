@@ -5,7 +5,18 @@
 </head>
 <body>
     <h1>reciever-login</h1>
-    <hr/><hr/>
+    <hr/>
+    <div>
+        <a href="./../index.html">Home</a>&nbsp;&nbsp;
+        <a href="">About</a>&nbsp;&nbsp;
+        <a href="eligibility-criteria.html">Eligibility</a>&nbsp;&nbsp;
+        <a href="">Blood_type</a>&nbsp;&nbsp;
+        <a href="">Donar</a>&nbsp;&nbsp;
+        <a href="reciever-login.html"><b>Reciever</b></a>&nbsp;&nbsp;
+        <a href="">Way to donate</a>&nbsp;&nbsp;
+        <a href="">Location</a>&nbsp;&nbsp;
+        <a href="">Contact</a>&nbsp;&nbsp;
+    </div><hr/>
     <div>
         <h2><p  align="center"><i>Hospital Details</i></p></h2>
         <p  align="center">
@@ -49,20 +60,36 @@
         <label for="group">+AB</label>&nbsp;&nbsp;
         <input type="radio" id="group" name="group">
         <label for="group">-AB</label>&nbsp;&nbsp;<br>
-       </p>
+        </p>
     </div><hr/>
     <div>
         <h2><p align="center"><i>Documents</i></p></h2>
         <p  align="center">
         <label for="id"><b>Upload id Proof:-</b></label>
-        <input type="file" id="id" accept="image/*,application/pdf"><br>
+        <input type="file" id="id" accept="image/*,application/pdf"  required><br>
         <label for="receipt"><b>Upload Receipt:-</b></label>
-        <input type="file" id="receipt" accept="image/*,application/pdf"><br>
-        <label for="sign"><b>Upload Signuture:-</b></label>
-        <input type="file" id="sign" accept="image/*,application/pdf"><br>
+        <input type="file" id="receipt" accept="image/*,application/pdf" required><br>
+        <label for="sign"><b>Upload Signature:-</b></label>
+        <input type="file" id="sign" accept="image/*,application/pdf" required><br>
     </p>
     </div><hr/>
-
-
+</div><hr/>
+<div>
+    <h3><p  align="center">Payment</p></h3>
+    <p  align="center">
+    <label for="pay">Payment Method :=</label>&nbsp;&nbsp;&nbsp;</p>
+    <p  align="center">
+        <a href="reciever-payment-card.html" target="myscreen"><b>Card</b></a>&nbsp;&nbsp;
+        <a href="reciever-payment-online.html" target="myscreen"><b>Online</b></a><br>
+        <iframe src="" height="250px" width="350px" name="myscreen"></iframe>
+    </p>
+</div><hr/>
+<div>
+<p  align="center">
+    <label for="afertpay"><b>Upload Receipt afert pay:-</b></label>
+    <input type="file" id="afertpay" accept="image/*,application/pdf" required><br><br>
+<label for="sub"></label>
+<input type="submit" id="sub" value="Done"></p>
+</div>
 </body>
 </html>
