@@ -5,6 +5,41 @@
     <title>Donor login page</title>
 </head>
 <body>
-    donor login page is created by harshit
+    <h2><u>donor login page is created by harshit</u></h2>
+
+    <form>
+        <label for="inputname">Enter donor name: </label>
+        <input type="text" id="inputname" placeholder="enter donor name" required>
+        <br><br>
+        <label for="inputnumber">Enter your contact number:</label>
+        <input type="number" id="inputnumber" placeholder="enter your contact number" required>
+        <br><br>
+        <label for="inputlist">donor blood group:</label>
+        <input list="inputlist"  placeholder="select" required>
+        <datalist id="inputlist">
+            <option>A positive (A+) </option>
+            <option>A Negative (A-)</option>
+            <option>B positive (B+)</option>
+            <option>B Negative (B-)</option>
+            <option>AB positive (AB+)</option>
+            <option>AB Negative (AB-)</option>
+            <option>O positive (O+)</option> 
+            <option>O Negative (O-)</option>  
+        </datalist>
+        <br><br>
+        <label for="inputage">Enter donor age:</label>
+        <input type="text" id="inputage" placeholder="donor age" required>
+        <br><br><hr><br>
+        <label for="inputfile">Upload any reports or history of the donor (not mandatory)</label>
+        <input type="file" id="inputfile" accept="application/*">
+        <br><br>
+        <input type="submit" value="register now">
+    </form>
+    <br><br>
+    <a href="index.html">Get back to Home</a>
+
+
+    
+
 </body>
 </html>
