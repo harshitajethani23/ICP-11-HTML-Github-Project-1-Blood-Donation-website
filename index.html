@@ -10,25 +10,40 @@
         <p align="center"><img src="./img/blood.png" height="40px">Blood Donation</p>
     </h1>
     <hr/>
-    <div>
-        <h1>
-            <p align="center">Login </p>
-        </h1>
-        <P align="center">
-            <lable for="name"><b>Username: </b></lable>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="text" id="name" placeholder="Name" required>
-            <br><br>
-            <lable for="Password"><b>Password: </b></lable>
-            <input type="password" id="Password" placeholder="Password" required>
-            <br><br>
-            <lable for="confirm"><b>Confirm Password: </b></lable>
-            <input type="password" id="confirm" placeholder="Confirm Password" required>
-        </P>
-    </div>
-    <div>
-        <div>
-            <p align="center"><a href="./pages/about.html"><input type="button" value="Login"/></a></p>
-        </div>
-            <p align="center">Not registered?<a href="./pages/donor-login.html">Create an account</a></p>
+
+    <br><br><br>
+    
+    <center>
+    <form style="border: 2px solid black; width: 300px;">
+        <table cellpadding="10">
+            <tr>
+                <th colspan="2"><h2>Login</h2></th>
+            </tr>
+
+            <tr>
+                <td><b>Username:</b></td>
+                <td><input type="text" id="username" placeholder="Enter your username"></td>
+            </tr>
+
+            <tr>
+                <td><b>Password:</b></td>
+                <td><input type="password" id="password" placeholder="Enter your Password"></td>
+            </tr>
+
+            <tr>
+                <td><b>Confirm Password:</b></td>
+                <td><input type="password" id="password" placeholder="Confirm Password"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <a href="./pages/about.html"><input type="button" value="Login"/></a>
+                    <p align="center">Not registered?<a href="./pages/donor-login.html">Create an account</a></p>
+                </td>
+            </tr>
+            
+        </table>
+    </form>
+    </center>
 </body>
 </html>
