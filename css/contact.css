@@ -1,0 +1,31 @@
+.contact-container {
+    width: 450px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px 1px #666666;
+}
+.contact-container:hover{
+    transition: 0.5s;
+    box-shadow: 2px 2px 10px 2px #666666;
+}
+.contact-info a{
+    text-decoration: none;
+}
+.contact-info a:hover{
+    border-bottom: 2px solid;
+    transition: 0.5s;
+    color: #D84040;
+    font-weight: bold;
+}
+.social-contact a{      
+    text-decoration: none;
+}
+.social-contact a:hover{
+    color: #D84040;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.social-contact img{
+    vertical-align: bottom;
+}
