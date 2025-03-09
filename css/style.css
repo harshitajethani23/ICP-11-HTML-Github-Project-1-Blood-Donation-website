@@ -1,0 +1,16 @@
+.header-icon{
+    vertical-align: bottom;
+}
+.button{
+    width: 100%;
+    padding: 10px;
+    background-color: #D84040;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #b71c1c;
+}
