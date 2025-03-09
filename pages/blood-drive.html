@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Host a Blood Drive</title>
+    <style>
+        body {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        h1 {
+            margin: 20px 0;
+        }
+        .container {
+            width: 50%;
+            margin: 0 auto;
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 1px 1px 5px 1px #666666;
+        }
+        .form-box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        .form-box h2 {
+            font-size: 1.3em;
+            text-align: left;
+        }
+        .form-box p {
+            text-align: left;
+            font-size: 0.9em;
+        }
+        .captcha {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .zip-code {
+            margin-top: 20px;
+            text-align: left;
+        }
+        input[type="text"] {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .next-btn {
+            padding: 10px 15px;
+            background-color: #D84040;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .next-btn a{
+            text-decoration: none;
+            color: #ccc;
+            font-weight: bold;
+        }
+        .next-btn:hover {
+            background-color: red;
+        }
+        .back-page{
+            color: #000000;
+            background-color: #f8f8f8;
+            color: transparent;
+            border-radius: 5px;
+            padding: 10px;
+            text-decoration: none;
+        }
+        .back-page a {
+            text-decoration: none;
+        }
+        .back-page a:hover{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Step Up to Host a Blood Drive</h1>
+    <p>Thank you for your interest in the American Red Cross Blood Program! Once your information is submitted, a Red Cross representative will be in contact soon.<br>
+        We are grateful for your commitment to patients in need and the health of your community.</p>
+    <br><br>
+    <div class="container">
+        <div class="form-box">
+            <h2>Let's get started.</h2>
+            <p>For security purposes, please verify that you are a real-life person before completing this form.</p>
+            <div class="captcha">
+                <input type="checkbox"> I'm not a robot
+            </div>
+            <hr>
+            <div class="zip-code">
+                <h3>Now, please enter your zip code to begin.</h3>
+                <label for="zip">Zip Code</label>
+                <input type="text" id="zip" placeholder="Enter Zip Code">
+                <button class="next-btn">
+                    <a href="donor-login.html">Next</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <p class="back-page">
+        <a href="about.html">Back to page..</a>
+    </p>
+</body>
+</html>
