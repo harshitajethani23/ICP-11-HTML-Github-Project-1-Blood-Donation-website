@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.appointment-link{
+    text-decoration: none;
+    color: #8E1616;
+    font-weight: bold;
+}
+.appointment-link:hover{
+    font-size: 20px;
+    transition: 0.7s;
+}
+.img-blood{
+    box-shadow: 1px 1px 5px 1px #666666;
+}
+.img-blood:hover{
+    transition: 0.5s;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px 2px #8E1616;
+}

@@ -2,31 +2,22 @@
 <html lang="en">
 <head>
     <title>Blood bank</title>
-    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="./../img/blood.png">
     <link rel="stylesheet" href="./../css/reciever.css">
 </head>
 <body>
-    <h1>
-        <p align="center"><img src="../img/blood.png" height="40px">Blood Donation</p>
-    </h1>
-    
-    <div  align="center">
-        <hr style="text-align: center;">
-            <a href="about.html">About</a> 
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="eligibility-criteria.html">Eligibility</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="blood-type main.html">Blood Types</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="donor-login.html">Donor</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="reciever-login.html">Reciever</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="contact.html">Contact</a>
-        <hr>
+    <div>
+        <div align="center" class="navbar">
+                <a href="about.html" class="nav-menu">About</a> 
+                <a href="eligibility-criteria.html" class="nav-menu">Eligibility</a>
+                <a href="blood-type main.html" class="nav-menu">Blood Types</a>
+                <a href="donor-login.html" class="nav-menu">Donor</a>
+                <a href="reciever-login.html" class="nav-menu">Reciever</a>
+                <a href="contact.html" class="nav-menu">Contact</a>                   
+        </div>
     </div>
-
+        <br>
     <div class="box">
         <h2><p  style="text-align: center;"><i>Hospital Details</i></p></h2>
        <ul>
@@ -36,7 +27,8 @@
         </li>
         <li>
             <label for="address">Hospital Address:-</label>
-            <input type="text" id="address" placeholder="Address" required><br>
+            <input type="text" 
+            id="address" placeholder="Address" required><br>
         </li>
         <li>
             <label for="phone">Hospital Contact:- +91</label>
