@@ -1,25 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>reciever-payment-card</title>
+    <title>reciever-payment-Card</title>
+    <link rel="stylesheet" href="./../css/reciever.css">
+    <link rel="stylesheet" href="./../css/style.css">
 </head>
 <body>
-    <h4><p align="center">Payment through Card</p></h4>
-    <label for="cardtype">Card Type :-</label>
-    <select>
-        <option>Visa</option>
-        <option>Master</option>
-        <option>Amex</option>
-    </select><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="cardtype" placeholder="if other card mention here"><br>
-    <label for="cardnumber">Card Number :-</label>
-    <input type="text" id="cardnumber" required><br>
-    <label for="code">Security Code :-</label>
-    <input type="text" id="code" placeholder="0000" required><br>
-    <label >Amount := 2000\-</label><br>
-    <label for="date">Exiprtion Date :-</label>
-    <input type="date" id="date" required><br>
-    <p align="center"><input type="button" value="pay"/></p>
+    <h4 class="txt">Payment through Card</h4>
+
+    <ul>
+        <li>
+            <label for="cardtype">Card Type :-</label>
+            <select>
+                <option>Visa</option>
+                <option>Master</option>
+                <option>Amex</option>
+            </select>
+        <input type="text" id="cardtype" placeholder="if other app mention here"><br>
+        </li>
+
+        <li>
+            <label for="cardnumber">Card Number :-</label>
+            <input type="text" id="cardnumber" required><br>
+        </li>
+        <li>
+            <label for="code">Security Code :-</label>
+            <input type="text" id="code" placeholder="0000" required><br>
+        </li>
+        <li>
+            <label >Amount := 2000\-</label><br>
+        </li>
+        <li>
+            <label for="date">Exiprtion Date :-</label>
+            <input type="date" id="date" required><br> 
+        </li>
+    </ul>
+     <p align="center"><input type="button" value="pay" class="button"/></p>
     <hr/>
 </body>
 </html>

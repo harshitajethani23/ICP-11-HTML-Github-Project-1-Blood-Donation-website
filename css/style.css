@@ -2,13 +2,13 @@
     vertical-align: bottom;
 }
 .button{
-    width: 100%;
+    width: 20%;
     padding: 10px;
     background-color: #D84040;
     color: white;
     font-weight: bold;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
 }
 .button:hover {

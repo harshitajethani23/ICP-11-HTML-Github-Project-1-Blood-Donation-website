@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <title>Blood bank</title>
+    <link rel="stylesheet" href="./../css/style.css">
+    <link rel="icon" href="./../img/blood.png">
+    <link rel="stylesheet" href="./../css/reciever.css">
 </head>
 <body>
     <h1>
@@ -9,7 +12,7 @@
     </h1>
     
     <div  align="center">
-        <hr>
+        <hr style="text-align: center;">
             <a href="about.html">About</a> 
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="eligibility-criteria.html">Eligibility</a>
@@ -24,79 +27,121 @@
         <hr>
     </div>
 
-    <div>
-        <h2><p  align="center"><i>Hospital Details</i></p></h2>
-        <p  align="center">
-        <label for="name">Hospital Name:-</label>
-        <input type="text" id="name" placeholder="Hospital Name" required><br>
-        <label for="address">Hospital Address:-</label>
-        <input type="text" id="address" placeholder="Address" required><br>
-        <label for="phone">Hospital Contact:- +91</label>
-        <input type="tel to:" id="phone" placeholder="Contact" required><br>
-        <label for="dname">Doctor Name:-</label>
-        <input type="text" id="dname" placeholder="Doctor Name" required><br>
-    </p><hr/>
+    <div class="box">
+        <h2><p  style="text-align: center;"><i>Hospital Details</i></p></h2>
+       <ul>
+        <li>
+            <label for="name">Hospital Name:-</label>
+            <input type="text" id="name" placeholder="Hospital Name" required><br>
+        </li>
+        <li>
+            <label for="address">Hospital Address:-</label>
+            <input type="text" id="address" placeholder="Address" required><br>
+        </li>
+        <li>
+            <label for="phone">Hospital Contact:- +91</label>
+            <input type="tel to:" id="phone" placeholder="Contact" required><br>
+        </li>
+        <li>
+            <label for="dname">Doctor Name:-</label>
+            <input type="text" id="dname" placeholder="Doctor Name" required><br>  
+        </li>
+       </ul>
     </div>
-    <div>
-        <h2><p  align="center"><i>Patient Details</i></p></h2>
-        <p  align="center">
-        <label for="pname">Name of Patient</label>
-        <input type="text" id="pname" placeholder="Patient Name" required><br>
-        <label for="phone">Contact:- +91</label>
+
+
+
+    <div class="box">
+        <h2><p  style="text-align: center;"><i>Patient Details</i></p></h2>
+       <ul>
+        <li>
+            <label for="pname">Name of Patient</label>
+            <input type="text" id="pname" placeholder="Patient Name" required><br>
+        </li>
+        <li>
+            <label for="phone">Contact:- +91</label>
         <input type="tel to:" id="phone" placeholder="Contact" required><br>
-        <label for="email">Email Address :-</label>
-        <input type="email to:" id="email" placeholder="abc@gmail.com" required><br>
-        <label  for="address 1">Patient Address 1:-</label>
-        <input type="text" id="address 1" placeholder="Address 1" required><br>
-        <label  for="address 2">Patient Address 2:-</label>
-        <input type="text" id="address 2" placeholder="Address 2" required><br>
-        <label for="group">Blood Group:-</label>
-        <input type="radio" id="group" name="group">
-        <label for="group">+O</label>
-        <input type="radio" id="group" name="group">
-        <label for="group">-O</label>&nbsp;&nbsp;
-        <input type="radio" id="group" name="group">
-        <label for="group">+A</label>&nbsp;&nbsp;
-        <input type="radio" id="group" name="group">
-        <label for="group">-A</label>&nbsp;&nbsp;
-        <input type="radio" id="group" name="group">
-        <label for="group">+B</label>&nbsp;&nbsp;
-        <input type="radio" id="group" name="group">
-        <label for="group">-B</label>&nbsp;&nbsp;
-        <input type="radio" id="group" name="group">
-        <label for="group">+AB</label>&nbsp;&nbsp;
-        <input type="radio" id="group" name="group">
-        <label for="group">-AB</label>&nbsp;&nbsp;<br>
-        </p>
-    </div><hr/>
-    <div>
-        <h2><p align="center"><i>Documents</i></p></h2>
-        <p  align="center">
-        <label for="id"><b>Upload id Proof:-</b></label>
-        <input type="file" id="id" accept="image/*,application/pdf"  required><br>
-        <label for="receipt"><b>Upload Receipt:-</b></label>
-        <input type="file" id="receipt" accept="image/*,application/pdf" required><br>
-        <label for="sign"><b>Upload Signature:-</b></label>
-        <input type="file" id="sign" accept="image/*,application/pdf" required><br>
+        </li>
+        <li>
+            <label for="email">Email Address :-</label>
+            <input type="email to:" id="email" placeholder="abc@gmail.com" required><br>
+        </li>
+        <li>
+            <label  for="address 1">Patient Address 1:-</label>
+        <input type="text" id="address 1" placeholder="Address 1" required><br>  
+        </li>
+        <li>
+            <label  for="address 2">Patient Address 2:-</label>
+        <input type="text" id="address 2" placeholder="Address 2" required><br>  
+        </li>
+        <li>
+            <label for="group">Blood Group:-</label>
+          <ul class="txt">
+            
+                    <input type="radio" id="group" name="group">
+                    <label for="group">+O</label><br>
+                
+                    <input type="radio" id="group" name="group">
+                    <label for="group">-O</label><br>
+               
+                    <input type="radio" id="group" name="group">
+                    <label for="group">+A</label><br>
+               
+                    <input type="radio" id="group" name="group">
+                    <label for="group">-A</label><br>
+              
+                    <input type="radio" id="group" name="group">
+                    <label for="group">+B</label><br>
+              
+                    <input type="radio" id="group" name="group">
+                    <label for="group">-B</label><br>
+                
+                    <input type="radio" id="group" name="group">
+                    <label for="group">+AB</label><br>
+                
+                    <input type="radio" id="group" name="group">
+                    <label for="group">-AB</label><br>
+                
+
+           
+        </li>
+       </ul>
+    </div>
+    <div class="box">
+        <h2 class="txt"><i>Documents</i></h2>
+        <ul>
+            <li>
+                <label for="id"><b>Upload id Proof:-</b></label>
+                <input type="file" id="id" accept="image/*,application/pdf"  required><br>
+            </li>
+            <li>
+                 <label for="receipt"><b>Upload Receipt:-</b></label>
+                 <input type="file" id="receipt" accept="image/*,application/pdf" required><br>
+            </li>
+            <li>
+                <label for="sign"><b>Upload Signature:-</b></label>
+                <input type="file" id="sign" accept="image/*,application/pdf" required><br>
+            </li>
+        </ul>
     </p>
-    </div><hr/>
-</div><hr/>
-<div>
+    </div>
+</div>
+
+<div class="box">
     <h3><p  align="center">Payment</p></h3>
     <p  align="center">
     <label for="pay">Payment Method :=</label>&nbsp;&nbsp;&nbsp;</p>
     <p  align="center">
-        <a href="reciever-payment-card.html" target="myscreen"><b>Card</b></a>&nbsp;&nbsp;
-        <a href="reciever-payment-online.html" target="myscreen"><b>Online</b></a><br>
-        <iframe src="" height="250px" width="350px" name="myscreen"></iframe>
+        <a href="reciever-payment-card.html" target="myscreen" class="button"><b>Card</b></a>&nbsp;&nbsp;
+        <a href="reciever-payment-online.html" target="myscreen" class="button"><b>Online</b></a><br>
+        <iframe src="" height="250px" width="450px" name="myscreen" class="butt"></iframe>
     </p>
-</div><hr/>
-<div>
+</div>
+
 <p  align="center">
     <label for="afertpay"><b>Upload Receipt afert pay:-</b></label>
-    <input type="file" id="afertpay" accept="image/*,application/pdf" required><br><br>
-<label for="sub"></label>
-<input type="submit" id="sub" value="Done"></p>
+    <input type="file" id="afertpay" accept="image/*,application/pdf" required><br><br>>
+<a href="./about.html" ><input type="button" id="sub" value="Done" class="button butt" ></a>
 </div>
 </body>
 </html>
