@@ -18,9 +18,9 @@ The **Blood Donation Website** is an HTML-based project designed to spread aware
  
 ---
 ## Homepage 
-![Website Page Screenshot](./img/pictures/Screenshot_1.png)
+![Website Page Screenshot](./img/pictures/web-img-1.png)
 
-![Website Page Screenshot](./img/pictures/Screenshot_2.png)
+![Website Page Screenshot](./img/pictures/web-img-2.png)
 
 ---
 
