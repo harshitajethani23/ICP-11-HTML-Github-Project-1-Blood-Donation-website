@@ -3,6 +3,7 @@
 <head>
     <title>Blood Types Information</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/blood-type main.css">
 </head>
 <body>
     <div>
@@ -19,49 +20,53 @@
         </div>
         </div>
     
-    <h1 align="center">Blood types</h1>&nbsp;&nbsp;&nbsp;&nbsp;
+    <h1 class="h1">Blood types</h1>&nbsp;&nbsp;&nbsp;&nbsp;
     <div align="center">
-    <img src="../img/pictures/blood group cr.jpg" alt="blood img" height="300px">
+    <img src="../img/pictures/blood group cr.jpg" alt="blood img" height="300px" class="card">
     </div>
-        <p style="text-align:center; font-size:18px;"><b>Understanding blood types is crucial for safe transfusions and medical emergencies.</b></p>
+        <p class="heading"><b>Understanding blood types is crucial for safe transfusions and medical emergencies.</b></p>
     <hr> <hr>
+    <div align="center">
     <h2>What are Blood Types?</h2>
     <p>Blood is classified into different groups based on the presence or absence of specific antigens. The main blood groups are:</p>
+    </div>
    <hr>
+   <div align="center">
     <h2>1. Blood Type O</h2>
     <p>Contains no A or B antigens on red blood cells but has both anti-A and anti-B antibodies in plasma.</p>
     <p><strong>Can donate to:</strong> A, B, AB, O (Universal Donor)</p>
     <p><strong>Can receive from:</strong> O only</p>
-    <a href="blood-types.html">view more</a>
+    <button class="btn-view"><a href="blood-types.html">view more</a></button>
     <hr>
     <h2>2. Blood Type A</h2>
     <p>Contains A antigens on red blood cells and anti-B antibodies in plasma.</p>
     <p><strong>Can donate to:</strong> A, AB</p>
     <p><strong>Can receive from:</strong> A, O</p>
-    <a href="blood-types.html">view more</a>
+    <button class="btn-view"><a href="blood-types.html">view more</a></button>
     <hr>
     
     <h2>3. Blood Type B</h2>
     <p>Contains B antigens on red blood cells and anti-A antibodies in plasma.</p>
     <p><strong>Can donate to:</strong> B, AB</p>
     <p><strong>Can receive from:</strong> B, O</p>
-    <a href="blood-types.html">view more</a>
+    <button class="btn-view"><a href="blood-types.html">view more</a></button>
     <hr>
 
     <h2>4. Blood Type AB</h2>
     <p>Contains both A and B antigens on red blood cells and no antibodies in plasma.</p>
     <p><strong>Can donate to:</strong> AB only</p>
     <p><strong>Can receive from:</strong> A, B, AB, O (Universal Recipient)</p>
-    <a href="blood-types.html">view more</a>
+    <button class="btn-view"><a href="blood-types.html">view more</a></button>
     <hr>
 
     <h2> 5. Rh Factor</h2>
     <p>Each blood type can be either Rh-positive (+) or Rh-negative (-), depending on the presence of the Rh antigen.</p>
-    <a href="../pages/blood-types.html">view more</a>
+    <button class="btn-view"><a href="../pages/blood-types.html">view more</a></button>
     <hr>
-    
-    <h2 style="text-align:center;">Compatibility Summary</h2>
-    <table border="1" style="width: 80%; text-align:center;">
+   </div>
+    <div class="table-sum">
+    <h2 >Compatibility Summary</h2>
+    <table border="1" style="width: 60%; text-align:center;"class="table-container" >
         <tr style="background-color:lightgray;">
             <th>Blood Type</th>
             <th>Can Donate To</th>
@@ -108,5 +113,6 @@
             <td>O-</td>
         </tr>
     </table>
+    </div>
 </body>
 </html>
