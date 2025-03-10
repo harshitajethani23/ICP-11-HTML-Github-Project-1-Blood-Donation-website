@@ -1,0 +1,64 @@
+.h1{
+    text-align: center;
+    color: #8E1616;
+    
+
+}
+.heading{
+    text-align: center;
+     background-color: #8E1616;
+     color:#EEEEEE;
+     
+}
+.blood-img{
+    background: #EEEEEE;
+    border-radius:none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    height: 250px;
+    width: 300px;
+
+}
+
+.btn-view{
+    margin-left: 50px;
+    background-color:white;
+    color:black;
+    padding:10px 25px;
+    border: 1px   #D84040;
+    cursor: pointer;
+    border-radius: 0;
+    border-width: 5px;
+    box-shadow:1px 1px 2px 2px #8E1616;
+
+}
+.btn-view:hover {
+    background-color:#EEEEEE;
+    color: black;
+    }
+
+.table-sum h2{
+    text-align: center;
+    color: #D84040;   
+}
+
+td{
+    box-shadow: 1px 1px 5px 1px black;
+}
+
+tr{
+    box-shadow: 1px 1px 5px 1px black;
+}
+
+th{
+    box-shadow: 1px 1px 5px 1px black;
+}
+.hover{
+    transition: 0.5s;
+    box-shadow: 2px 2px 10px 2px #8E1616;
+}
+.table-container{
+    text-align: center;
+    margin: auto;
+}
+
