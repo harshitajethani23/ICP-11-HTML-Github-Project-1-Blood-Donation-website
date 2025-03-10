@@ -10,28 +10,15 @@
      color:#EEEEEE;
      
 }
-.card{
-        width: 300px;
-        margin: 40px;
-        border: 1px solid hsl(0, 0%, 87%);
-        border-radius: 10px;
-        overflow: hidden;
-        box-shadow: 1px 1px 5px 1px #666666;        
-        background-color: white;
-        transition: transform 0.3s ease-in-out;
-    }
-    .card:hover{
-        transition: 0.3s;
-        box-shadow: 1px 1px 8px 1px #8E1616;
-        box-sizing: 350px;
-        transform: scale(1.1);
-    }
-    .card img {
-        width: 300px;
-        height: 250px;
-    }
+.blood-img{
+    background: #EEEEEE;
+    border-radius:none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    height: 250px;
+    width: 300px;
 
-    
+}
 
 .btn-view{
     margin-left: 50px;
@@ -45,11 +32,14 @@
     box-shadow:1px 1px 2px 2px #8E1616;
 
 }
+.btn-view a{
+    text-decoration: none;
+}
 .btn-view:hover {
     background-color:#EEEEEE;
     color: black;
-    }
-
+    font-weight: bold;
+}
 .table-sum h2{
     text-align: center;
     color: #D84040;   
