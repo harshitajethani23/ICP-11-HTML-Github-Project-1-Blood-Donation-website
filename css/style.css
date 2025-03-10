@@ -10,7 +10,6 @@ dark: #1D1616;
   }
   
 .header-icon{
-    vertical-align: bottom;
     height: 40px;
 }
 .button{
@@ -47,4 +46,21 @@ dark: #1D1616;
     transform: perspective();
     font-weight: bold;
     border-bottom: 2px solid #8E1616;
+}
+.title-container{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    background: linear-gradient(to right, #e52d27, #b31217);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.title-container:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
 }
