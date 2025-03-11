@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blood Donation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css"> 
 </head>
 <body>
-    <h1>Blood Donation</h1>
+    <div class="heading-border">
+        <h1 class="title-container">
+            <p align="center"><img src="./img/blood.png" height="40px" class="header-icon">Blood Donation</p>
+        </h1>
+        <hr/>
+    </div>
+
+    <br><br>
+    <center>
+    <form class="login-form">
+        <table cellpadding="10">
+            <tr>
+                <th colspan="2">
+                    <h2>
+                        <img src="img/icon/login-logo.png" height="40px" style="vertical-align: bottom;"/>
+                        Login
+                    </h2>
+                </th>
+            </tr>
+
+            <tr>
+                <td><b>Username:</b></td>
+                <td><input type="text" id="username" placeholder="Enter your username" required></td>
+            </tr>
+
+            <tr>
+                <td><b>Password:</b></td>
+                <td><input type="password" id="password" placeholder="Enter your Password" required></td>
+            </tr>
+
+            <tr>
+                <td><b>Confirm Password:</b></td>
+                <td><input type="password" id="password" placeholder="Confirm Password" required></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <a href="./pages/about.html">
+                        <input type="button" value="Login" class="button"/>
+                    </a>
+                    <p align="center">
+                        Not registered?
+                        <a href="./pages/donor-login.html" style="text-decoration: none;">
+                             Create an account                            
+                        </a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </center>
+<br><br><br><br>
+    <div class="container">
+        <div class="text-section">
+            <p>CHANGE THE WORLD WITH US</p>
+            <h2>SCHEDULE YOUR DONATION APPOINTMENT NOW.</h2>
+        </div>
+        <div class="buttons-footer">
+            <p>
+                <a href="tel:9834023208" style="color: white;">CALL  9834023208</a>
+            </p>
+            <a href="./pages/donor-login.html" class="btn btn-red">💧 Schedule online</a>
+            <a href="./pages/contact.html" class="btn btn-green">📍 Find a location</a>
+        </div>
+    </div>
 </body>
 </html>

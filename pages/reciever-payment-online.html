@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>reciever-payment-Online</title>
+    <link rel="stylesheet" href="./../css/reciever.css">
+    <link rel="stylesheet" href="./../css/style.css">
+</head>
+<body>
+    <h4 class="txt">Payment type online</h4>
+    <ul>
+        <li>
+            <label for="app">choice app :-</label>
+        <select>
+        <option>G-pay</option>
+        <option>Phone-Pay</option>
+        <option>Paytm</option></select>
+        <input type="text" id="app" placeholder="if other app mention here"><br>
+        </li>
+
+        <li>
+            <label for="accountnumber">Account Number :-</label>
+            <input type="text" id="accountnumber" required><br>
+        </li>
+        <li>
+            <label for="code">Security Code :-</label>
+            <input type="text" id="code" placeholder="0000" required><br>
+        </li>
+        <li>
+            <label >Amount := 2000\-</label><br>
+        </li>
+        <li>
+            <label for="trancation">Trancation id :-</label>
+            <input type="text" id="trancation" required><br>
+        </li>
+    </ul>
+  
+    <p align="center"><input type="button" value="pay" class="button"/></p>
+    <hr/>
+</body>
+</html>
